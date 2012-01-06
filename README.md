@@ -11,8 +11,8 @@ It can be seen in action here [http://www.svommeklubbennord.dk/konkurrenceafdeli
 # Usage
 
 The shortcode to insert looks like this:
-    [agegroup group=junior gender=female]
+	[agegroup group=junior gender=female]
 
 options:
-    group=aargang2 - choices: 'aargang2', 'aargang1', 'junior' or 'senior'
-    gender=female - choices: 'female' or 'male'
+	group=aargang2 - choices: 'aargang2', 'aargang1', 'junior' or 'senior'
+	gender=female - choices: 'female' or 'male'
