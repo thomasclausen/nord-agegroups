@@ -6,21 +6,13 @@ Agegroups in danish swimming changes once every year so this little plugin simpl
 
 # Examples
 
-It can be seen in action here:
-[http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/](http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/)
-[http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/aargang/](http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/aargang/)
-[http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/junior/](http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/junior/)
-[http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/senior/](http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/senior/)
+It can be seen in action here [http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/](http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/) and on it's subpages
 
 # Usage
 
 The shortcode to insert looks like this:
-```html
-[agegroup group=junior gender=female]
-```
+    [agegroup group=junior gender=female]
 
 options:
-```html
-group=aargang2 - choices: 'aargang2', 'aargang1', 'junior' or 'senior'
-gender=female - choices: 'female' or 'male'
-```
+    group=aargang2 - choices: 'aargang2', 'aargang1', 'junior' or 'senior'
+    gender=female - choices: 'female' or 'male'
