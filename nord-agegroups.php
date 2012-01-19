@@ -22,7 +22,7 @@ function nord_agegroup( $atts ) {
 		$genderfactor = 0;
 		$gender_name = __( 'Piger: ', 'nord_agegroup' );
 	}
-	if ( gmdate( 'm' ) >= '9' && gmdate( 'm' ) <= '12' ) {
+	if ( gmdate( 'm' ) >= '9' and gmdate( 'm' ) <= '12' ) {
 		$yearfactor = 1;
 	} else {
 		$yearfactor = 0;
@@ -58,7 +58,7 @@ add_shortcode( 'agegroup', 'nord_agegroup' );
 function nord_group_year( $atts ) {
 	extract( shortcode_atts( array(), $atts ) );
 	
-	if ( gmdate( 'm' ) >= '9' && gmdate( 'm' ) <= '12' ) {
+	if ( gmdate( 'm' ) >= '9' and gmdate( 'm' ) <= '12' ) {
 		$yearfactor = 1;
 	} else {
 		$yearfactor = 0;
