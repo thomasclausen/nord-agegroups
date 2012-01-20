@@ -3,7 +3,7 @@
 Plugin Name: NORD - agegroups
 Description: Shows which ages bellongs in which groups.
 Version: 0.1
-License: GPLv2 or later
+License: GPLv2
 Author: Thomas Clausen
 Author URI: http://www.thomasclausen.dk/wordpress/
 */
