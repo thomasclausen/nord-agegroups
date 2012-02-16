@@ -10,6 +10,8 @@ It can be seen in action here [http://www.svommeklubbennord.dk/konkurrenceafdeli
 
 # Usage
 
+Download it, upload it and activate it!
+
 The shortcode to insert looks like this:
 
     [agegroup group=junior gender=female]
