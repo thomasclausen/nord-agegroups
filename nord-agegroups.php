@@ -17,10 +17,10 @@ function nord_agegroup( $atts ) {
 	
 	if ( $gender == 'male') {
 		$genderfactor = 2;
-		$gender_name = __( 'Drenge: ', 'nord_agegroup' );
+		$gender_name = __( 'Drenge: ', 'nord_agegroups' );
 	} else {
 		$genderfactor = 0;
-		$gender_name = __( 'Piger: ', 'nord_agegroup' );
+		$gender_name = __( 'Piger: ', 'nord_agegroups' );
 	}
 	if ( gmdate( 'm' ) >= '9' and gmdate( 'm' ) <= '12' ) {
 		$yearfactor = 1;
@@ -30,24 +30,24 @@ function nord_agegroup( $atts ) {
 	
 	if ( $group == 'aargang2' ) :
 		$date_from = gmdate( 'Y', mktime( 0, 0, 0, 8, 31, gmdate( 'Y' )+$yearfactor-12-$genderfactor ) );
-		$date_to = __( 'yngre', 'nord_agegroup' );
+		$date_to = __( 'yngre', 'nord_agegroups' );
 		
-		return $gender_name . $date_from . ' og ' . $date_to;
+		return $gender_name . $date_from . __( ' og ' , 'nord_agegroups' ) . $date_to;
 	elseif ( $group == 'aargang1' ) :
 		$date_from = gmdate( 'Y', mktime( 0, 0, 0, 8, 31, gmdate( 'Y' )+$yearfactor-14-$genderfactor ) );
 		$date_to = gmdate( 'Y', mktime( 0, 0, 0, 8, 31, gmdate( 'Y' )+$yearfactor-13-$genderfactor ) );
 		
-		return $gender_name . $date_from . ' og ' . $date_to;
+		return $gender_name . $date_from . __( ' og ' , 'nord_agegroups' ) . $date_to;
 	elseif ( $group == 'junior' ) :
 		$date_from = gmdate( 'Y', mktime( 0, 0, 0, 8, 31, gmdate( 'Y' )+$yearfactor-16-$genderfactor ) );
 		$date_to = gmdate( 'Y', mktime( 0, 0, 0, 8, 31, gmdate( 'Y' )+$yearfactor-15-$genderfactor ) );
 		
-		return $gender_name . $date_from . ' og ' . $date_to;
+		return $gender_name . $date_from . __( ' og ' , 'nord_agegroups' ) . $date_to;
 	elseif ( $group == 'senior' ) :
 		$date_from = gmdate( 'Y', mktime( 0, 0, 0, 8, 31, gmdate( 'Y' )+$yearfactor-17-$genderfactor ) );
-		$date_to = __( '&aelig;ldre', 'nord_agegroup' );
+		$date_to = __( '&aelig;ldre', 'nord_agegroups' );
 		
-		return $gender_name . $date_from . ' og ' . $date_to;
+		return $gender_name . $date_from . __( ' og ' , 'nord_agegroups' ) . $date_to;
 	else :
 		return '';
 	endif;
