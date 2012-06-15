@@ -6,7 +6,7 @@ Agegroups in danish swimming changes once every year so this little plugin simpl
 
 # Examples
 
-It can be seen in action here [http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/](http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/) and on it's subpages
+It can be seen in action here: [http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/](http://www.svommeklubbennord.dk/konkurrenceafdeling/klubrekorder/) and on it's subpages
 
 # Usage
 
@@ -23,7 +23,7 @@ options:
 
 # Feedback
 
-Let me start by saying I'm self-taught by scattering code across the web, so if you see some bad practices PLEASE contact me, so I can learn from the mistakes I'm making!
+I'm self-taught by scattering code across the web, so if you see some bad practices PLEASE contact me, so I can learn from the mistakes I'm making!
 
 Also feel free to contact me if you have som great ideas for improvements.
 
